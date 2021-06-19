@@ -18,7 +18,7 @@ body{
     width: 10px;
 }
 #lang{
-    float: right;;
+    float: right;
 }
 #lang span{
     margin: 0 10px 0 0 ;
@@ -241,7 +241,7 @@ nav img{
 #info img{
     vertical-align: text-top;
     float: left;
-    margin-right: 20px;
+    margin-right: 45px;
 }
 #info div{
     margin: 20px;
@@ -255,4 +255,19 @@ nav img{
     font-weight: bold;
     font-size: 12px;
     line-height: 12px;
+}
+.social{
+    color: #fff;
+    float: right;
+    position: relative;
+    top: 144px;
+    font-size: 20px;
+    left: 212px;
+}
+.social i{
+    margin: 0 10px;
+}
+.social a{
+    text-decoration: none;
+    color: #fff;
 }
