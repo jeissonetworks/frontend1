@@ -1,0 +1,129 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+html{
+    width: 1024px;
+    background-color: rgb(212, 212, 212);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.descuentos{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+}
+.descuentos span{
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+    left: 10px;
+    
+}
+.titulo{
+    background-color: #00669F;
+    width: 100%;
+    height: 100px;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    
+}
+.titulo h1{
+    font-size: 40px;
+    font-weight: normal;
+    line-height: 47px;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+main{
+    background-color: #fff;
+    text-align: center;
+    padding: 150px 0;
+}
+main section{
+    width: 300px;
+    height: 540px;
+    display: inline-block;
+    position: relative;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin: 15px;
+}
+main section i{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+main section img {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.fondo-batman{
+    background-image: url(../img/fondo-batman.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-harley{
+    background-image: url(../img/fondo-harley.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-joker{
+    background-image: url(../img/fondo-joker.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.texto{
+    position: absolute;
+    top: 250px;
+    padding: 20px;
+}
+.texto h2{
+    font-weight: 500;
+    margin: 0;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+}
+.texto p{
+    text-align: left;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+main section a{
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 15px 40px;
+    text-decoration: none;
+    position: absolute;
+    top: 470px;
+    left: 80px;
+
+}
+footer{
+    background: #00669F;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+    height: 50px;
+    color: #FFF9F9;
+    padding: 15px;
+}
