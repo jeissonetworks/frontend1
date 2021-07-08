@@ -1,0 +1,429 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+html{
+    width: 100%;
+    background-color: rgb(212, 212, 212);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+}
+.descuentos{
+    background-color: #1CD1B0;
+    width: 100%;
+    height: 38px;
+}
+.descuentos span{
+    font-weight: 500;
+    position: relative;
+    top: 5px;
+    left: 30px;
+    
+}
+.titulo {
+    background-color: #00669F;
+    width: 100%;
+    height: auto;
+    position: sticky;
+    top: 0px;
+    z-index: 5;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+.titulo img{
+    display: inline-block;
+    margin-left: 20px;
+}
+.titulo h1 {
+    font-size: 40px;
+    font-weight: normal;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    color: #fff;
+    display: inline-block;
+    vertical-align: top;
+}
+nav{
+    background-color: #001D2D;
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row-reverse;
+   
+}
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin: 0.5rem 0.8rem;
+}
+main{
+    background-color: #fff;
+    text-align: center;
+    padding: 50px 0;
+    
+}
+main section{
+    width: 300px;
+    height: 600px;
+    display: inline-block;
+    position: relative;
+    background: #F3F3F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 0 0;
+    margin: 30px;
+}
+main section i{
+    color: red;
+    font-size: 30px;
+    position: absolute;
+    top: 20px;
+    left: 25px;
+}
+main section i:hover{
+    top: 15px;
+    left: 20px;
+    font-size: 40px;
+    cursor: pointer;
+}
+main section img {
+    position: absolute;
+    top: 130px;
+    left: 90px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 120px;
+}
+main section img:hover {
+    top: 110px;
+    left: 70px;
+    width: 150px;
+}
+.fondo{
+    border-radius: 20px;
+}
+.fondo-batman{
+    background-image: url(../img/fondo-batman.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-superman{
+    background-image: url(../img/fondo-superman.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-maravilla{
+    background-image: url(../img/fondo-maravilla.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-harley{
+    background-image: url(../img/fondo-harley.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.fondo-joker{
+    background-image: url(../img/fondo-joker.png);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    width: 100%;
+    height: inherit;
+}
+.texto{
+    position: absolute;
+    top: 250px;
+    padding: 20px;
+}
+.texto h2{
+    font-weight: 500;
+    margin: 0;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 35px;
+}
+.texto p{
+    text-align: left;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #333333;
+}
+main section a{
+    color: #F3F3F3;
+    background-color: #00669F;
+    padding: 15px 40px;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 80px;
+
+}
+main section a:hover{
+    color: #000;
+    background-color: #1CD1B0;
+  
+
+}
+footer{
+    background: #00669F;
+    box-shadow: 0px -4px 4px rgb(0 0 0 / 25%);
+    height: 62px;
+    color: #FFF9F9;
+    padding: 15px;
+    text-align: center;
+}
+footer img{
+    float: right;
+    height: 100%;
+    margin-right: 20px;
+}
+.plus{
+    position: fixed;
+    top: 50%;
+    right: 15px;
+    color: #fff;
+    background-color: #00669F;
+    padding: 20px;
+    border-radius: 50%;
+}
+.plus:hover{
+    background-color: #001D2D;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 9rem auto;
+    max-width: 500px;
+    
+}
+.registro{    
+    margin: 4rem auto;
+}
+.super{    
+    margin: 0 auto;
+}
+.botones {
+    display: flex;
+    justify-content: space-between;
+}
+.botones input{
+    width: 48%;
+}
+form a{
+    display: inline;
+    text-decoration: none;
+    color: #00669F;
+}
+form h1{
+    display: flex;
+    align-items: flex-start;
+    margin: 1rem;
+    font-size: 3rem;
+}
+input, select, textarea {
+    
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #000;
+}
+.men {
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid #000;
+    border-radius: 0px;
+    width: auto;
+}
+
+::placeholder{
+    color: #000;
+}
+
+.boton{
+    background: #1CD1B0;
+    border-radius:  23.011px;
+    border: none;
+    font-weight: bold;
+    
+}
+.boton:hover{
+    background: #001D2D;
+    color: #fff;
+    cursor: pointer;
+}
+a:hover{
+    color:#1CD1B0;
+}
+.boton:active{
+    background: #001D2D;
+    color: #fff;
+    cursor: pointer;
+}
+a:active{
+    color:#1CD1B0;
+}
+input:focus{
+    box-shadow: 0px 0px 15px #1CD1B0;
+    background: #1cd1b036;
+    outline: none;
+}
+textarea{
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+textarea:focus{
+    box-shadow: 0px 0px 15px #1CD1B0;
+    background: #1cd1b036;
+    outline: none;
+}
+.reset{
+    background: #888888;
+    color: #fff;
+}
+.super{
+    background: #00669F;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49.0901px;
+    max-width: 960px;
+    color: #fff;
+    display: inline-block;
+    padding: 1rem 0;
+}
+
+.super h2{
+    font-size: 2.5rem;
+}
+.super input, textarea, select {
+    width: 100%;
+    margin: 15px 0  0 0;
+    background: #FFFFFF;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+    outline: none;
+}
+.super input:focus{
+    box-shadow: 0px 0px 15px #000;
+    outline: none;
+    
+}
+
+.super textarea:focus{
+    box-shadow: 0px 0px 15px #000;
+    outline: none;
+    background: #fff;
+    
+}
+.super div{
+    display: inline-block;
+    width: 35%;
+    text-align: left;
+    margin: 20px 10px 0 10px;
+}
+.file{
+    background: none !important;
+    border: none !important;
+}
+.botonadd{
+    font-size: 2rem;
+    font-weight: bold;
+    background: #1CD1B0 !important;
+}
+.botond{
+    width: 45% !important;
+}
+.botonadd:hover{
+    color: #fff;
+    background: #001D2D !important;
+    cursor: pointer;
+}
+
+.chekradio {
+    width: auto !important;
+    margin: 5px 10px 10px 0 !important;
+   
+}
+.option{
+    font-size: 0.9rem;
+    
+}
+hr{
+    margin: 20px 0;
+}
+
+
+@media (max-width: 480px){
+
+    .titulo{
+        background-color: #00669F;
+        width: 100%;
+        height: auto;
+        position: sticky;
+        top: 0px;
+        z-index: 5;
+        box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+    }
+
+    .titulo h1{
+        font-size: 1.5rem;
+        font-weight: normal;
+        position: relative;     
+        color: #fff;
+        vertical-align: top;
+        top: 1.5rem;
+    }
+    footer{
+        font-size: 14px;
+        text-align: center;
+        height: auto;
+    }
+    footer img{
+        float:none;
+        width: 35%;
+        margin: 20px 0 0 0;
+    }
+    
+    nav{
+        background-color: #001D2D;
+        display: inline-flex;
+        width: 100%;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: center;
+       
+    }
+    form{
+       
+        margin: 1rem auto;
+        
+    }
+    .registro{        
+    margin: 1rem auto;
+    }
+    .super{
+        padding: 20px;
+    }
+    .super div {
+        
+        width: 100%;
+        margin: 0 0 20px 0;
+       
+    }
+    .botond {
+        width: 80% !important;
+    }
+}
