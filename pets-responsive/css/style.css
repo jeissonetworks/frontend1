@@ -43,6 +43,14 @@ nav a{
     color: #fff;
     margin: 0 0 0 10px ;
 }
+nav a:before{
+    font-family: FontAwesome;
+    content: "\f1b0";
+}
+nav a:hover{
+    color: #222;
+    font-size: 1.2rem;
+}
 nav img{
     width: 20px;
     vertical-align: text-top;
@@ -89,6 +97,10 @@ nav img{
     float: right;
     margin: 0 117px;
 }
+#bn3:hover{
+    cursor: pointer;    
+    background: #222;
+}
 #destacados{
     background:#fff;
     height: auto;
@@ -108,10 +120,20 @@ nav img{
 #destacados span{
     margin: 0 20px;
 }
+#destacados span:hover{
+    color: #F0A83E;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
 .productos{
     display: inline-block;
     margin-top: 40px;
     background-color: #faf9f5;
+}
+.productos img:hover{
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
 }
 .titulo{
     font-size: 15px;
@@ -152,6 +174,13 @@ nav img{
 #contacto input::placeholder{
     color: #fff;
     padding: 5px 20px;
+
+}
+#contacto input:focus{
+    background: #f0a83e;
+    color: #222;
+    outline: none;
+    box-shadow: 0px 5px 5px #000;
 }
 .reset{
     width: 110px;
@@ -164,6 +193,15 @@ nav img{
     border: none; 
     margin: 35px 10px;  
 }
+.reset:hover{
+    font-size: large;
+    width: 120px;
+    height: 44px;
+    position: relative;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+}
 .send{
     width: 110px;
     height: 34px;
@@ -173,6 +211,15 @@ nav img{
     font-size: 16px;
     line-height: 19px; 
     border: none;   
+}
+.send:hover{
+    font-size: large;
+    width: 120px;
+    height: 44px;
+    position: relative;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
 }
 #suscripcion{
     background: #F0A83E;
@@ -184,10 +231,17 @@ nav img{
 }
 #suscripcion span{
     font-size: 20px;
-    line-height: 23px;
+    line-height: 1rem;
     font-weight: bold;
     color: #FFFFFF;
     
+}
+#suscripcion span::before{
+    content: url(../img/email.svg);
+    margin-right: 1rem;
+    height: 1rem;
+    line-height: 1rem;
+    vertical-align: middle;
 }
 #suscripcion img{    
     vertical-align: text-bottom;
@@ -268,6 +322,10 @@ nav img{
 }
 .social i{
     margin: 0 10px;
+}
+.social i:hover{
+    margin: 0 10px;
+    color: #f0a83e;
 }
 .social a{
     text-decoration: none;
