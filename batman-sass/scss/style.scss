@@ -1,0 +1,77 @@
+@use "var" as *;
+
+html{
+    text-align: center;
+    margin: 0 auto;
+    width: 1440px;
+    font-family: $font;
+}
+body{    
+    background: #E6E6E6;
+}
+header{
+    h1{
+        background: $color-2;
+        color: $color-1;
+        font-weight: bold;
+        font-size: 35px;
+        letter-spacing: 10px;
+        padding: 5px 15px;
+        margin: 0;
+
+    }
+}
+main{
+    text-align: left;
+    background: #fff;
+    section{
+        padding: 80px 230px 120px;
+       
+        h2{
+            background: $color-2;
+            color: $color-1;
+            font-weight: bold;
+            font-size: 20px;
+            letter-spacing: 4px;
+            text-align: left;  
+            padding: 5px 15px; 
+            margin-top: 30px;
+
+        }
+        ul{
+            margin-left: 10px;
+            p{
+                margin: 0 0 0 74px;
+            }
+            li{
+                font-size: 15px;
+                list-style: none;
+                margin: 10px 0 0 0;
+                font-style: normal;
+                list-style:outside;
+                margin: 5px;
+                
+                span{
+                    font-weight: bold;
+                    font-style: italic;
+                }
+
+            }
+        }
+    }
+}
+footer{
+    background: $color-1;
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    height: 37px;
+    padding: 5px;
+    line-height: 17px;
+    padding-top: 15px;
+
+    img{
+        margin: 0px 0px 0px 15px;
+        vertical-align: text-bottom;
+    }
+}
