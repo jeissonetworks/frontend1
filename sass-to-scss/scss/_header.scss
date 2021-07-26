@@ -1,0 +1,23 @@
+header{
+    margin-bottom: 2em;
+    nav{
+        //Estilos del nav
+        ul{
+            display: flex;
+            list-style: none;
+            a{
+                padding: 1.5em;
+                color: #fff;
+                text-decoration: none;
+                background: $color-primary;
+                margin-right: 1.5em;
+                border-radius:(5%);
+                &:hover{
+                    //otra manera de llamar a mixin
+                    background: $color-secondary;
+                    //background: $color-secondary
+                }
+            }
+        }
+    }
+}              
