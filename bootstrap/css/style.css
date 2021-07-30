@@ -1,0 +1,67 @@
+.color1{
+    background: #6b4e71;
+}
+.color2{
+    background: #c2b2b4;   
+}
+.color3{
+    background: #53687e;
+}
+.color4{
+    background: #1a252f;   
+}
+.color5{
+    color: #2c3e51;
+}
+.form-control{
+    border: none;
+    border-bottom: 1px solid #6c757d;
+    border-radius: 0;
+    padding: 1rem 0; 
+    margin-top: .5rem;
+    color: #6c757d;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.form-control::placeholder { 
+    color: #6c757d;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding: 0 !important;
+}
+.hover, .hover img{
+    transition: 500ms;
+}
+.hover:hover{
+    background-color: #c2b2b4;
+    transition: 500ms;
+}
+.hover:hover img, .c{
+    opacity: .5;
+    transition: 500ms;
+}
+.hover:hover .mas{
+    opacity: 1;
+}
+.mas{
+    transition: .5s ease;
+  opacity: 0;
+  position: relative;
+  top: -40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  backface-visibility: hidden;
+  font-size: 8rem;
+  color: #fff;
+}
+.c{
+    margin-top: -13rem;
+    opacity: 1;
+    color: #2c3e51;
+}
+.zin{
+    z-index: 100;
+}
